@@ -167,12 +167,14 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  activejob
   byebug
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
   jbuilder (~> 2.5)
   puma (~> 3.7)
   rails (~> 5.1.5)
+  rubyzip
   sass-rails (~> 5.0)
   selenium-webdriver
   sqlite3
