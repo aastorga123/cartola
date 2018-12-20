@@ -1,9 +1,9 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/aastorga123/cartola/blob/master/LICENSE) [![Gem Version](https://badge.fury.io/rb/cartolabco.svg)](https://badge.fury.io/rb/cartolabco)
 [![Build Status](https://travis-ci.com/aastorga123/cartola.svg?branch=master)](https://travis-ci.com/aastorga123/cartola)
 
+## __Information__
 
-Ingresar archivo de bancos para subir cartola bancaria. 
-Este sistema aun se encuentra en etapa de desarrollo, no se subiran los cambios hasta nuevo aviso.
+Import file from banks to raise bank balance.
 
 ## How to use
 
