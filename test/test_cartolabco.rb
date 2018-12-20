@@ -9,6 +9,6 @@ class CartolabcoTest < Minitest::Test
     assert_equal 1, bci.numero_cartola
     assert_equal '29-12-2017', bci.desde
     assert_equal '17-01-2018', bci.hasta
-    assert_equal '86686593', bci.cuenta_corriente
+    assert_equal '999999', bci.cuenta_corriente
   end
 end
