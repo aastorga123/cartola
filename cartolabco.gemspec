@@ -2,8 +2,8 @@
 
 Gem::Specification.new do |s|
   s.name = "cartolabco"
-  s.version = '0.0.1'
-  s.date = '2018-12-17'
+  s.version = '1.0.0'
+  s.date = '2018-12-20'
   s.authors = ["Alexis Astorga", "Braulio Lopez"]
   s.email = ["alexis.astorga.ti@gmail.com", "brauliop.3@gmail.com"]
   s.summary = "gema cartola"
