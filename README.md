@@ -5,8 +5,6 @@
 
 Import file from banks to raise bank balance.
 
-## How to use
-
 Distributed in [RubyGems](https://rubygems.org/gems/cartolabco)
 
 __Gemfile__
@@ -16,6 +14,45 @@ __Gemfile__
 __Install__
 
 `gem install cartolabco`
+
+## How to use
+
+__from path or file__
+```ruby
+bci_xls = Cartolabco::BciParse.from_path('path ...')
+bci_xls = Cartolabco::BciParse.from_file(file)
+```
+
+__get data__
+```ruby
+bci = bci_xls.parse
+```
+
+`bci` contains:
+
+|attribute|type|
+|:-:|:-:|
+|numero_catola|int|
+|saldo_inicial|float|
+|saldo_final|float|
+|total_cargos|float|
+|total_abonos|float|
+|desde|string|
+|hasta|string|
+|movimientos|array|
+
+`movimientos` contains:
+
+|attribute|type|
+|:-:|:-:|
+|fecha|string|
+|correlativo|int|
+|descripcion|string|
+|sucursal|string|
+|nro_documento|string|
+|cargo|float|
+|abono|float|
+|saldo|float|
 
 ## Contribute
 just test your code before pull request, run 
