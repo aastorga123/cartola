@@ -4,7 +4,7 @@ require 'bci_xls'
 
 class CartolabcoTest < Minitest::Test
   def test_bci_parse
-    bci_xls = Cartolabco::BciParse.from_path('C:/Users/Usuario/Documents/GitHub/cartola/test/resources/cartola_bci.xls')
+    bci_xls = Cartolabco::BciParse.from_path('./test/resources/cartola_bci.xls')
     bci = bci_xls.parse
     assert_equal 1, bci.numero_cartola
     assert_equal '29-12-2017', bci.desde
