@@ -18,4 +18,7 @@ __Install__
 `gem install cartolabco`
 
 ## Contribute
-just test your code before pull request, run `$ rake test`
+just test your code before pull request, run 
+```console
+$ bundle exec rake test
+```
