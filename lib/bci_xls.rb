@@ -42,13 +42,19 @@ class BciXls
                                    row[2],
                                    row[1],
                                    row[3].to_s[0..(row[3].to_s.size - 3)],
-                                   row[5],
-                                   row[7],
-                                   row[9]
+                                   not_nil_number(row[5]),
+                                   not_nil_number(row[7]),
+                                   not_nil_number(row[9])
                      )
       )
       correlativo = correlativo + 1
     end
     movimientos
+  end
+
+  private
+
+  def not_nil_number(number)
+    number.nil? ? 0 : number
   end
 end
