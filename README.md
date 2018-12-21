@@ -33,6 +33,7 @@ bci = bci_xls.parse
 |attribute|type|
 |:-:|:-:|
 |numero_catola|int|
+|cuenta_corriente|string|
 |saldo_inicial|float|
 |saldo_final|float|
 |total_cargos|float|
