@@ -15,6 +15,7 @@ class CartolabcoTest < Minitest::Test
     assert_equal 13898614, bci.total_cargos
     assert_equal 18258114, bci.total_abonos
     assert_equal 87277922, bci.movimientos[53].saldo
+    assert_equal 2494197, bci.movimientos[8].cargo
   end
 
   def test_bci_parse_from_file

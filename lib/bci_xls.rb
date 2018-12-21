@@ -42,7 +42,7 @@ class BciXls
                                    row[2],
                                    row[1],
                                    row[3].to_s[0..(row[3].to_s.size - 3)],
-                                   row[6],
+                                   row[5],
                                    row[7],
                                    row[9]
                      )
